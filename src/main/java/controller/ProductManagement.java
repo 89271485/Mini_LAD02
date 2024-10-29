@@ -64,6 +64,7 @@ public class ProductManagement extends HttpServlet {
                 ArrayList<Hoa> dsHoa = hoaDAO.getByPage(pageIndex, pageSize);
                 request.setAttribute("dsHoa", dsHoa);
                 request.setAttribute("pageSum", pageSum);
+                request.setAttribute("pageIndex", pageIndex);
                 request.getRequestDispatcher("admin/list_product.jsp").forward(request, response);
                 break;
             case "add":

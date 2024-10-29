@@ -171,7 +171,7 @@ public class HoaDAO {
     public static void main(String[] args) {
         HoaDAO hoaDao = new HoaDAO();
         System.out.println("Lay trang 1");
-        int pageSize=5;
+        int pageSize=10;
         ArrayList<Hoa> dsHoa = hoaDao.getByPage(2, pageSize);
         for (Hoa hoa : dsHoa) {
             System.out.println(hoa);

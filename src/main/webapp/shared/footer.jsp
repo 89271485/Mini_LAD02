@@ -1,6 +1,8 @@
-<%@page pageEncoding="UTF-8" %>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <footer class="container">
-            <strong>&copy; 2024 - NguyenHuuLuan - 2321160049</strong>
+    
+    
+            <strong>&copy; 2024 - Nguyễn Hữu Luân - 2321160049</strong>
         </footer>
 
         <!-- Optional JavaScript -->
